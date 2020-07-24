@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import './game-main.dart';
+import './splash.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Game Box Jumping',
-      home: GameMain(),
+      title: 'Box Jumping',
+      home: splashscreen(),
     );
   }
 }
